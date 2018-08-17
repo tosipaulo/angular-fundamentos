@@ -1,4 +1,1 @@
-<ap-photo 
-    url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzMuejnS6HLaYFEEG9fSZvVhli-Uny2wjQLhsigaJghyq6S5UL0g" 
-    description="la casa de papel" >
-</ap-photo>
+<ap-photo *ngFor="let item of photos" [url]="item.url" [description]="item.description" ></ap-photo>
