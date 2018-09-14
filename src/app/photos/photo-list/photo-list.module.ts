@@ -19,7 +19,7 @@ import { DarkenOnHoverModule } from "../../shared/directives/darken-on-hover/dar
         SearchComponent
     ],
     imports: [
-        CommonModule,
+        CommonModule, 
         PhotoModule,
         CardModule,
         DarkenOnHoverModule
